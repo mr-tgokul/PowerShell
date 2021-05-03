@@ -3,7 +3,7 @@
 
 #################################################################################
 
-This Repository is used to Save my Own Powershell Scripts whcih was developed using Various Powershell Modules 
+This Repository is used to Save my Own Powershell Scripts which was developed using Various Powershell Modules 
     
     * Default Windows Modules 
     * POWERCLI
