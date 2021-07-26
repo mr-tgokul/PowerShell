@@ -1,6 +1,11 @@
-﻿Function Reload-VM 
+﻿Function Reload-VM
 {
 <#
+==============================================================
+Script Created by : Gokul T
+Email : mr.tgokul@gmail.com
+
+===============================================================
  .SYNOPSIS
  Function to Reload the Virtual machine
 
@@ -10,6 +15,7 @@
 .EXAMPLE
  Reload-VM -VM <VMNAME>
 
+#>
 [CmdletBinding()]
 param(
 [parameter(position=0,Mandatory=$True)]
