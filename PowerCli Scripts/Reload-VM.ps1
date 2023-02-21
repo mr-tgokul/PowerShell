@@ -25,6 +25,3 @@ $VMCheck = get-vm -name $VM -ErrorAction SilentlyContinue
 If ($VMCheck){Get-VM -Name $VM | Get-View | %{$_.reload()}}
 Else {Write-Host "Plese enter the Correct VM Name" -ForegroundColor Yellow}
 }
-
-
-
